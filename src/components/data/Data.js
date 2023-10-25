@@ -10,7 +10,8 @@
     name: "Chocolate",
     price: 200,
     image: "./images/picture2.jpg"
-  },{
+  },
+  {
     id: '3',
     name: "Starwberry",
     price: 400,

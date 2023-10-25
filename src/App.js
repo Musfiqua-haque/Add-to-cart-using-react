@@ -33,7 +33,7 @@ function App() {
     else{
       cartItems.map((item)=> item.id === product.id)?{...exitProduct,quantity: exitProduct.quantity-1}: item;
     }
-    console.log("hello");
+   
   }
 
   return (

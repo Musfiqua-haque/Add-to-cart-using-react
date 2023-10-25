@@ -20,7 +20,7 @@ export default function Product({productItems,handleAddProduct}) {
           </div>
 
           <div className='addcart'>
-            <button onClick={()=> handleAddProduct(productItem)}>Add to cart</button>
+            <button className='button1 ' onClick={()=> handleAddProduct(productItem)}>Add to cart</button>
           </div>
           </div>
         ))}

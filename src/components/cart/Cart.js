@@ -23,15 +23,17 @@ const totalprice = cartItems.reduce((price,item)=>price +item.quantity * item.pr
                 <button className='remove-btn'onClick={()=>handleRemoveProduct(cartItem)}> - </button>
               </div>
 
-              <div>{cartItem.quantity}*{cartItem.price}</div>
-              <div className='total-price-section'>
-                Total Price
-                <div className="cart-item-total-price">${totalprice}</div>
-                </div>
+              <div className='cart-item price'>{cartItem.quantity}*{cartItem.price}
+              </div>
             </div>
-
           ))}
         </div>
+        <div className='total-price-section'>
+          Total Price
+          <div className="cart-item-total-price">
+            ${totalprice}
+            </div>
+          </div>
       </div>
     </>
   )
